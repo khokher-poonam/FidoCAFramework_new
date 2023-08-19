@@ -24,7 +24,7 @@ public class TestBase {
     public TestBase()  {
 try{
          prop=new Properties();
-        FileInputStream fip=new FileInputStream("C:\\Users\\poona\\ISP-Automation\\FidoCAFramework_new\\src\\test\\java\\com\\fido\\qa\\Config\\config.properties");
+        FileInputStream fip=new FileInputStream("C:\\Users\\poona\\ISP-Automation\\FidoCAFramework_new-23\\src\\test\\java\\com\\fido\\qa\\Config\\config.properties");
 prop.load(fip);
 
     }
