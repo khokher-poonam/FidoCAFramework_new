@@ -37,7 +37,7 @@ homepage=new HomePage();
 
     @Test(dataProvider = "fido_dataProvider" ,dataProviderClass = ExcelData.class)
     public void ClickSidebarChkBtn(Object[] data) throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         phonePage.ClickSamsungCheckBtn();
         phonePage.ClickAppleChcekBtn();
         phonePage.ClickSmartPhoneBtn();
